@@ -1,7 +1,8 @@
-print("Hello world!")
+import random
 
-apples = 7
-if apples + 5 >= 10:
-  print("more than 10 apples")
+num_apples = random.randint(1,10)
+
+if num_apples >= 5:
+  print("You have more than 5 apples.")
 else:
-  print("less than 10 apples")
+  print("You have less than 5 apples.")
