@@ -4,7 +4,7 @@ user_age = input(f"Nice to meet you, {user_name}! How old are you? ")
 print(f"Welcome {user_name}! How can I assist you today?")
 
 print("\nPlease choose from the following options: ")
-print("1: PLaceholder 1\n2: Placeholder 2\n3: Placeholder 3\n4: Exit the conversation")
+print("1: Placeholder 1\n2: Placeholder 2\n3: Placeholder 3\n4: Exit the conversation")
 
 
 action = 0
@@ -16,21 +16,19 @@ while action != "4":
     print("[Insert action for option 1]")
     #code
     #code
-    action = 0
-
 
   elif action == "2":
     print("option 2 was chosen!!!!!")
     #code
     #code
-    action = 0
-
 
   elif action == "3":
     print("do option 3 stuff")
     #code
     #code
-    action = 0
+
+  else:
+    print("Invalid option. Try again.")
 
 
 if action == "4":
